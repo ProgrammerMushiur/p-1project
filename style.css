@@ -49,9 +49,30 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+.bd-in-expriance{
+box-shadow: 10px 10px 40px gray;
+border-radius: 10px;
+height: 80%;
+}
+#singel-part{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#singel-part-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue ,rgb(97, 97, 167));
+    border-image-slice: 1;
+}
+    
 footer{
     font-size: 12px;
     text-align: center;
     background-color: rgb(152, 159, 165);
+    border: 5px;
+    border-radius: 10px;
+    border-style: ;
 }
-
